@@ -28,6 +28,7 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+    print("Home rebuilt");
     return Scaffold(
       body:
           _currentIndex == 0
